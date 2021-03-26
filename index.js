@@ -12,7 +12,7 @@ function createEmployeeRecord (array) {
     
 }
 
-function createEmployeeRecords (arrays) {
+function createEmployeeRecords () {
 
     return arrays.map(array => createEmployeeRecord(array));
 
